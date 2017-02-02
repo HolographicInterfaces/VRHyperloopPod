@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: e177c843f25c89b4a9b9c265d5a83b27
+timeCreated: 1486012836
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: FacadeTexture_10_mat
+    100004: FacadeTexture_14_mat
+    100006: FacadeTexture_15_mat
+    100008: FacadeTexture_1_mat
+    100010: FacadeTexture_2_mat
+    100012: FacadeTexture_3_mat
+    100014: FacadeTexture_8_mat
+    100016: FacadeTexture_9_mat
+    100018: FacadeTexture_mat
+    100020: FHCHS_Disk_Face
+    100022: FlatRoofTexture_1_mat
+    100024: FlatRoofTexture_2_mat
+    100026: FlatRoofTexture_3_mat
+    100028: FlatRoofTexture_4_mat
+    100030: FlatRoofTexture_5_mat
+    100032: FlatRoofTexture_6_mat
+    100034: FlatRoofTexture_7_mat
+    100036: FlatRoofTexture_8_mat
+    100038: FlatRoofTexture_9_mat
+    100040: FlatRoofTexture_mat
+    100042: LoopLines
+    100044: ParkingLot_14_mat
+    400000: //RootNode
+    400002: FacadeTexture_10_mat
+    400004: FacadeTexture_14_mat
+    400006: FacadeTexture_15_mat
+    400008: FacadeTexture_1_mat
+    400010: FacadeTexture_2_mat
+    400012: FacadeTexture_3_mat
+    400014: FacadeTexture_8_mat
+    400016: FacadeTexture_9_mat
+    400018: FacadeTexture_mat
+    400020: FHCHS_Disk_Face
+    400022: FlatRoofTexture_1_mat
+    400024: FlatRoofTexture_2_mat
+    400026: FlatRoofTexture_3_mat
+    400028: FlatRoofTexture_4_mat
+    400030: FlatRoofTexture_5_mat
+    400032: FlatRoofTexture_6_mat
+    400034: FlatRoofTexture_7_mat
+    400036: FlatRoofTexture_8_mat
+    400038: FlatRoofTexture_9_mat
+    400040: FlatRoofTexture_mat
+    400042: LoopLines
+    400044: ParkingLot_14_mat
+    2300000: FacadeTexture_10_mat
+    2300002: FacadeTexture_14_mat
+    2300004: FacadeTexture_15_mat
+    2300006: FacadeTexture_1_mat
+    2300008: FacadeTexture_2_mat
+    2300010: FacadeTexture_3_mat
+    2300012: FacadeTexture_8_mat
+    2300014: FacadeTexture_9_mat
+    2300016: FacadeTexture_mat
+    2300018: FHCHS_Disk_Face
+    2300020: FlatRoofTexture_1_mat
+    2300022: FlatRoofTexture_2_mat
+    2300024: FlatRoofTexture_3_mat
+    2300026: FlatRoofTexture_4_mat
+    2300028: FlatRoofTexture_5_mat
+    2300030: FlatRoofTexture_6_mat
+    2300032: FlatRoofTexture_7_mat
+    2300034: FlatRoofTexture_8_mat
+    2300036: FlatRoofTexture_9_mat
+    2300038: FlatRoofTexture_mat
+    2300040: LoopLines
+    2300042: ParkingLot_14_mat
+    3300000: FacadeTexture_10_mat
+    3300002: FacadeTexture_14_mat
+    3300004: FacadeTexture_15_mat
+    3300006: FacadeTexture_1_mat
+    3300008: FacadeTexture_2_mat
+    3300010: FacadeTexture_3_mat
+    3300012: FacadeTexture_8_mat
+    3300014: FacadeTexture_9_mat
+    3300016: FacadeTexture_mat
+    3300018: FHCHS_Disk_Face
+    3300020: FlatRoofTexture_1_mat
+    3300022: FlatRoofTexture_2_mat
+    3300024: FlatRoofTexture_3_mat
+    3300026: FlatRoofTexture_4_mat
+    3300028: FlatRoofTexture_5_mat
+    3300030: FlatRoofTexture_6_mat
+    3300032: FlatRoofTexture_7_mat
+    3300034: FlatRoofTexture_8_mat
+    3300036: FlatRoofTexture_9_mat
+    3300038: FlatRoofTexture_mat
+    3300040: LoopLines
+    3300042: ParkingLot_14_mat
+    4300000: FacadeTexture_10_mat
+    4300002: FacadeTexture_14_mat
+    4300004: FacadeTexture_15_mat
+    4300006: FacadeTexture_1_mat
+    4300008: FacadeTexture_2_mat
+    4300010: FacadeTexture_3_mat
+    4300012: FacadeTexture_8_mat
+    4300014: FacadeTexture_9_mat
+    4300016: FacadeTexture_mat
+    4300018: FHCHS_Disk_Face
+    4300020: FlatRoofTexture_1_mat
+    4300022: FlatRoofTexture_2_mat
+    4300024: FlatRoofTexture_3_mat
+    4300026: FlatRoofTexture_4_mat
+    4300028: FlatRoofTexture_5_mat
+    4300030: FlatRoofTexture_6_mat
+    4300032: FlatRoofTexture_7_mat
+    4300034: FlatRoofTexture_8_mat
+    4300036: FlatRoofTexture_9_mat
+    4300038: FlatRoofTexture_mat
+    4300040: LoopLines
+    4300042: ParkingLot_14_mat
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

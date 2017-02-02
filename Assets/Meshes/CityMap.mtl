@@ -1,0 +1,558 @@
+newmtl BMW_Material_2SG_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/bmw2.png
+
+newmtl BMW_Material_5SG_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/bmw5.png
+
+newmtl cars_lwpg34_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/bmw1.png
+
+newmtl Default
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FacadeTexture_1_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FacadeTexture_10_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FacadeTexture_14_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FacadeTexture_15_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FacadeTexture_2_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FacadeTexture_3_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FacadeTexture_8_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FacadeTexture_9_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FacadeTexture_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FHCHS_Disk_Bevel
+Kd 0.462745 0.466667 0.470588
+Ke 0 0 0
+Ka 0.35 0.35 0.35
+Ks 0.5 0.5 0.5
+Ns 159
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FHCHS_Disk_Face
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FHCHS_Disk_Sides
+Kd 0.145098 0.145098 0.145098
+Ke 0 0 0
+Ka 0.19 0.19 0.19
+Ks 0.465 0.465 0.465
+Ns 754
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FHCHS_Face_Bevel
+Kd 0.462745 0.466667 0.470588
+Ke 0 0 0
+Ka 0.35 0.35 0.35
+Ks 0.5 0.5 0.5
+Ns 159
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FHCHS_Text_Face
+Kd 0.462745 0.466667 0.470588
+Ke 0 0 0
+Ka 0.35 0.35 0.35
+Ks 0.5 0.5 0.5
+Ns 159
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FHCHS_Text_Sides
+Kd 0.145098 0.145098 0.145098
+Ke 0 0 0
+Ka 0.19 0.19 0.19
+Ks 0.465 0.465 0.465
+Ns 754
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FlatRoofTexture_1_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FlatRoofTexture_2_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FlatRoofTexture_3_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FlatRoofTexture_4_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FlatRoofTexture_5_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FlatRoofTexture_6_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FlatRoofTexture_7_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FlatRoofTexture_8_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FlatRoofTexture_9_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl FlatRoofTexture_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl LoopLines
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl lambert_car_10SG_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/lwpg010.png
+
+newmtl lambert_car_11SG_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/lwpg011.png
+
+newmtl lambert_car_12SG_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/lwpg012.png
+
+newmtl lambert_car_13SG_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/lwpg013.png
+
+newmtl lambert_car_2SG_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/lwpg002.png
+
+newmtl lambert2SG_1_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/nyc_taxi.png
+
+newmtl lambert3SG_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/taxiMexico.png
+
+newmtl lambert5SG_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/aus_taxi.png
+
+newmtl lambert6SG_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/china_taxi.png
+
+newmtl lwpg002SG1_mat
+Kd 0.06 0.03 0.13
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl lwpg014SG1_mat
+Kd 0.1 0.1 0.1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl lwpg063_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/lwpg018d.jpg
+
+newmtl lwpg102_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/lwpg102d.jpg
+
+newmtl lwpg104_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/lwpg104d.jpg
+
+newmtl lwpg105_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/lwpg105d.jpg
+
+newmtl lwpg107_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/lwpg107d.jpg
+
+newmtl nypd1_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/german.png
+
+newmtl ParkingLot_14_mat
+Kd 0.360784 0.768628 0.894118
+Ke 0.31 0.31 0.31
+Ka 0.715 0.715 0.715
+Ks 0.7 0.7 0.7
+Ns 479
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl PorscheMaterial_2SG_mat
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+map_Kd E:ExternalBackup/Ant/Ant Art/Ant/Reception/CityModels/PorcheB.png
+
