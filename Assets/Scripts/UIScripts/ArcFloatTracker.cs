@@ -20,7 +20,7 @@ public class ArcFloatTracker : ValueTracker<float>
 
     public override void ProcessInput(float value)
     {
-        fill.fillAmount = NormalizeValue(value, 0, 1, minInputValue, maxInputValue);
+        //fill.fillAmount = NormalizeValue(value, 0, 1, minInputValue, maxInputValue);
         valueText.text = value + units;
     }
 }

@@ -131,11 +131,14 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
-    <Compile Include="Assets\KeepFace.cs" />
-    <Compile Include="Assets\MouseLook.cs" />
-    <Compile Include="Assets\OrbitCamera.cs" />
+    <Compile Include="Assets\Scripts\KeepFace.cs" />
+    <Compile Include="Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\OrbitCamera.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ArcFloatTracker.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\CircularTextureGenerator.cs" />
     <Compile Include="Assets\Scripts\UIScripts\CircularVec2Tracker.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\RectangularTextureGenerator.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\TextureGenerator.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ValueTracker.cs" />
   </ItemGroup>
   <ItemGroup>

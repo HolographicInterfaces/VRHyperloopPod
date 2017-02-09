@@ -25,6 +25,4 @@ public class CircularVec2Tracker : ValueTracker<Vector2> {
         marker.rectTransform.anchoredPosition = new Vector2(NormalizeValue(value.x, -xyMarkerRage.x, xyMarkerRage.x, minInputValue.x, maxInputValue.x),
                                                          NormalizeValue(value.y, -xyMarkerRage.y, xyMarkerRage.y, minInputValue.y, maxInputValue.y));
     }
-
-
 }
