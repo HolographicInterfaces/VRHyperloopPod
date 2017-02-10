@@ -134,6 +134,7 @@
     <Compile Include="Assets\Scripts\KeepFace.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\OrbitCamera.cs" />
+    <Compile Include="Assets\Scripts\TextureExt.cs" />
     <Compile Include="Assets\Scripts\UIScripts\ArcFloatTracker.cs" />
     <Compile Include="Assets\Scripts\UIScripts\CircularTextureGenerator.cs" />
     <Compile Include="Assets\Scripts\UIScripts\CircularVec2Tracker.cs" />
