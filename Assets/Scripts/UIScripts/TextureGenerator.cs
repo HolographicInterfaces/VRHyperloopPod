@@ -3,6 +3,8 @@ using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
+using System;
 
 [RequireComponent(typeof(RawImage))]
 public abstract class TextureGenerator : MonoBehaviour {
@@ -11,6 +13,9 @@ public abstract class TextureGenerator : MonoBehaviour {
     public int textureHeight;
     public bool useTargetImageSizeForTextureSize;
     protected Texture2D targetTexture;
+    public string savePath = "Assets/";
+    public string textureName = "MyTexture";
+    public ColorPercentage[] textureColors;
 
     public virtual void Initialize()
     {
@@ -29,15 +34,18 @@ public abstract class TextureGenerator : MonoBehaviour {
 
 	void Start ()
     {
-        Initialize();
-        Generate();
-        Apply();
+        Rebuild();
 
     }
 
     public abstract void Generate();
 
     void OnValidate()
+    {
+        Rebuild();
+    }
+
+    public void Rebuild()
     {
         Initialize();
         Generate();
@@ -110,5 +118,33 @@ public abstract class TextureGenerator : MonoBehaviour {
             }
         }
         return points;
+    }
+
+    public void SaveTexture()
+    {
+        string filePath = Application.dataPath + savePath + (savePath.EndsWith("/")?"":"/") + textureName + ".png";
+        Debug.Log("Writing Texture to " + filePath);
+        byte[] textureByteData = targetTexture.EncodeToPNG();
+        if(File.Exists(filePath))
+        {
+            Debug.Log("Error! Texture already exists at that path. Choose a different path or remove the existing file");
+        } else
+        {
+            File.WriteAllBytes(filePath, textureByteData);
+        }
+    }
+
+    [Serializable]
+    public class ColorPercentage
+    {
+        public Color color;
+        [Range(1,100)]
+        public int percentage;
+
+        public ColorPercentage(Color color, int percentage)
+        {
+            this.color = color;
+            this.percentage = percentage;
+        }
     }
 }

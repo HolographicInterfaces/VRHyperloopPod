@@ -15,7 +15,7 @@ public class CircularTextureGenerator : TextureGenerator {
     [Range(0, 360)]
     public int arcLengthDegrees;
 
-    public Color[] textureColors;
+    
 
     public override void Generate()
     {
@@ -33,12 +33,31 @@ public class CircularTextureGenerator : TextureGenerator {
         Color32[] tempArray = targetTexture.GetPixels32();
         List<KeyValuePair<Color32, List<Vector2>>> polygonsByColor = new List<KeyValuePair<Color32, List<Vector2>>>();
 
-        float subSectionSize = arcLengthDegrees / textureColors.Length;
+        int colorCount = textureColors.Count();
+        int percentageSum = textureColors.Sum(tc => tc.percentage);
+        if (percentageSum > 100)
+        {
+            int delta = 100 - percentageSum;
+            foreach (ColorPercentage cp in textureColors)
+            {
+                if ((cp.percentage + delta / textureColors.Length) > 100)
+                    cp.percentage = 100;
+                else if (cp.percentage + delta / textureColors.Length < 0)
+                    cp.percentage = 0;
+                else
+                    cp.percentage += delta / textureColors.Length;
+            }
+        }
 
+        float arcLengthGenerated = 0;
         for (int i = 0; i < textureColors.Length; i++)
         {
-            List<Vector2> points = this.GenerateSubSection(centerX, centerY, startAngle + (subSectionSize * i), subSectionSize);
-            polygonsByColor.Add(new KeyValuePair<Color32, List<Vector2>>(textureColors[i], GetPolygonPoints(points.ToArray())));
+            float thisArcLength = ((float)textureColors[i].percentage/100f) * arcLengthDegrees;
+            List<Vector2> points = this.GenerateSubSection(centerX, centerY, startAngle + arcLengthGenerated, thisArcLength);
+
+            arcLengthGenerated += thisArcLength;
+
+            polygonsByColor.Add(new KeyValuePair<Color32, List<Vector2>>(textureColors[i].color, GetPolygonPoints(points.ToArray())));
         }
 
         foreach (KeyValuePair<Color32, List<Vector2>> polygon in polygonsByColor)
@@ -57,9 +76,9 @@ public class CircularTextureGenerator : TextureGenerator {
 
     private List<Vector2> GenerateSubSection(int centerX, int centerY, float startAngle, float arcLengthDegrees)
     {
-        float r, a, px, py;
+        float a, px, py;
         List<Vector2> points = new List<Vector2>();
-        for (a = startAngle; a <= startAngle + arcLengthDegrees; a++)
+        for (a = startAngle; a <= startAngle + arcLengthDegrees + 1; a++)
         {
             px = centerX + (radius - thickness) * Mathf.Sin(a * Mathf.Deg2Rad);
             py = centerY + (radius - thickness) * Mathf.Cos(a * Mathf.Deg2Rad);
@@ -70,7 +89,7 @@ public class CircularTextureGenerator : TextureGenerator {
             points.Add(new Vector2(px, py));
         }
 
-        for (a = startAngle + arcLengthDegrees; a >= startAngle; a--)
+        for (a = startAngle + arcLengthDegrees + 1; a >= startAngle; a--)
         {
             px = centerX + radius * Mathf.Sin(a * Mathf.Deg2Rad);
             py = centerY + radius * Mathf.Cos(a * Mathf.Deg2Rad);

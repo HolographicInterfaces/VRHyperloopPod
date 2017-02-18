@@ -135,6 +135,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\UIGeneratorInspector.cs" />
     <Compile Include="Assets\GoogleVR\Editor\GvrAudioListenerEditor.cs" />
     <Compile Include="Assets\GoogleVR\Editor\GvrAudioRoomEditor.cs" />
     <Compile Include="Assets\GoogleVR\Editor\GvrAudioSoundfieldEditor.cs" />
